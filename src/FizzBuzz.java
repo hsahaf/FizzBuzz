@@ -3,7 +3,7 @@
  */
 class FizzBuzz {
 
-    public static void main(String[] args) {
+    public static void main() {
         int i = 1;
         while(i<100) {
             boolean divisibleBy3 = i % 3 == 0;
@@ -24,6 +24,9 @@ class FizzBuzz {
             }
 
         }
+    }
+
+    public static void doFizzBuzz(int i) {
     }
 }
 
